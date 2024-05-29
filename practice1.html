@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice1</title>
+    <style>
+      body {
+        background-color: darkorange;
+        color: black;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- heading 1~6 제목 1이 가장 크다 -->
+    <h1>1일 수록 크다</h1>
+    <h6>6일 수록 작다</h6>
+    <br />
+    <p>기본체</p>
+    <!-- b bold체를 지정한다. -->
+    <b>볼드체</b>
+    <br />
+    <p style="font-weight: bold">스타일로 볼드체</p>
+    <!-- strong 볼드체이지만 중요성을 띄고 웹표준이다. -->
+    <strong>중요한 볼드체</strong>
+    <br />
+    <!-- i 이텔릭체 -->
+    <i>이텔릭체</i>
+    <br />
+    <p style="font-style: italic">스타일로 이텔릭체</p>
+    <!-- em 중요한 의미를 가지는 이텔릭체 -->
+    <em>중요한 이텔릭체</em>
+    <br />
+    <!-- small 글자를 작게 -->
+    <small>작은 글씨</small>
+    <br />
+    <!-- mark 하이라이트 -->
+    <mark>하이라이트</mark>
+    <br />
+    <!-- del 글자를 지운 표시 -->
+    <del>지운 표시</del>
+    <br />
+    <!-- ins 밑줄 표시 -->
+    <ins>밑줄 표시</ins>
+    <br />
+    <!-- sub, sup 글자를 아래 위 쪽으로 쏠리게 한다. -->
+    <sub>아래쪽으로 쏠리게</sub>
+    <br />
+    <sup>위쪽으로 쏠리게</sup>
+    <br />
+
+    <!-- p 문단을 지정한다 -->
+    <p>문단을 지정하며 문자열이 들어가도 문제없다.</p>
+    <p>
+      p를 통해서 paragraphs를 구별할 수 있다.<br />
+      중간에 br을 넣을 수 있다. 끝나고 자동 개행이므로 br을 필요로하지 않는다.
+    </p>
+
+    <!-- br 강제 개행 -->
+    <br />
+    <!-- 
+    &nbsp 공백
+    html은 1개이상의 연속된 공백을 삽입하여도 1개의 공백으로 표시된다.
+    &nbsp 를 써서 연속된 공백을 표현할 수 있다 -->
+    <p>
+      연&nbsp;&nbsp;&nbsp;&nbsp;속&nbsp;&nbsp;된&nbsp;공&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;백
+    </p>
+    <!-- pre 안의 형식 그대로 출력한다. 연속된 공백도 제대로 표현할 수 있다. -->
+    <pre>
+      html은 원래 연속된 공백을 1개로 처리하지만
+
+      pre를
+
+
+      이용하면 연속된 공백 등도 한번에 처리가 가능하고
+      원하는 형식으로 출력할 수 있다.
+들여쓰기도 표현하기 때문에 주의하자
+    </pre>
+
+    <!-- hr 수평줄 삽입 -->
+    <hr />
+
+    <!-- q 인용문을 삽입해준다(자동으로 따옴표를 작성해준다.) -->
+    <p>
+      말 중간에
+      <q>q를 사용해서 자동으로 인용문을 만들어 줄 수 있다. </q> 따옴표를
+      넣어주는 느낌이다.
+    </p>
+    <br />
+    <!-- blockquote 긴 인용문을 작성해준다. 따옴표를 작성하지 않고 기존 문장과 구분이 생긴다.-->
+    <p>인용문을 작성해보자</p>
+    <blockquote>
+      <p>긴 인용문 안에 들어갈 문장</p>
+      <p>여러개가 가능한지 확인</p>
+    </blockquote>
+  </body>
+</html>
